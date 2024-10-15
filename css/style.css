@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+}
+
+.gallery-vertical {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 700px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+}
+.d{
+    width: 700px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color:black;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #000000, #ff4500);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #ff4500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 25px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+img {
+    width: 400px; 
+    height: auto; 
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+img:hover {
+    transform: scale(1.1) rotateX(10deg) rotateY(10deg);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 22px;
+    color:white;
+}
+
+h2 {
+    font-size: 24px;
+    color: orange;
+}
+
+.f{
+    font-size:20px;
+    color : blue;
+
+}
+.r{
+    font-size:20px;
+    color:black;
+}
+.video-container {
+    width: 700px; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .social-icons img {
+        width: 30px;
+    }
+}
